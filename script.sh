@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd $DRONE_WORKSPACE
+
+pronto run -f=$PLUGIN_FORMATTERS -r=$PLUGIN_RUNNER $PLUGIN_ARGS
