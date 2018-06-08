@@ -6,7 +6,7 @@ This drone plugin makes it as simple as
     lint:
       when:
         event: [pull_request]
-      image: sevenmind/drone-pronto
+      image: 7mind/drone-pronto
       formatters: [bitbucket_pr text]    
       runner: [scss slim]
 
