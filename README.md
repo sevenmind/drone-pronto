@@ -12,7 +12,13 @@ This drone plugin makes it as simple as
 
 to automate your review. 
 
-A list of supported runners can be found (here)[https://github.com/prontolabs/pronto#runners]. Additional parameters such as BITBUCKET_USERNAME should be specified using a .pronto.yml configuration file.
+Supported runners included as of now:
+
+- [pronto-slim](https://github.com/nysthee/pronto-slim)
+- [pronto-scss](https://github.com/prontolabs/pronto-scss)
+- [pronto-credo](https://github.com/carakan/pronto-credo)
+
+Note: Additional parameters such as BITBUCKET_USERNAME should be specified using a .pronto.yml configuration file.
 
 ## Parameter Reference
 
