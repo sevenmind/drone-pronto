@@ -10,7 +10,7 @@ This drone plugin makes it as simple as
       formatters: [bitbucket_pr text]    
       runner: [scss slim]
 
-to automate your review. 
+to automate your review. Pronto runs the linters only on the diff between the commited branch head and the the first commit of this branch which is not part of the repositories default branch.
 
 Supported runners included as of now:
 
@@ -26,10 +26,7 @@ Note: Additional parameters such as BITBUCKET_USERNAME should be specified using
 list, available items: github, github_status, github_pr, github_pr_review, gitlab, bitbucket, bitbucket_pr, bitbucket_server_pr, json, checkstyle, text
 
 ```runner```
-list, any pronto runner name (leaving out the *pronto-* prefix)
-
-```commit```
-Commit for the diff, Default: master
+list, any supported pronto runner name (leaving out the *pronto-* prefix)
 
 ```args```
 Any additonal args to be passed to prone
